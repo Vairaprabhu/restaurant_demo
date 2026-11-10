@@ -61,6 +61,54 @@ a:focus-visible {
   outline-offset: 4px;
 }
 
+.page-loader {
+  position: fixed;
+  z-index: 100;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--charcoal);
+  color: var(--cream);
+  opacity: 1;
+  transition: opacity 350ms ease, visibility 350ms ease;
+}
+
+.page-loader.is-leaving {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.loader-mark {
+  display: grid;
+  width: 58px;
+  height: 58px;
+  place-items: center;
+  border: 1px solid rgba(220, 193, 139, 0.75);
+  border-radius: 50%;
+  color: #e4c98f;
+  font-family: var(--serif);
+  font-size: 32px;
+  animation: loader-turn 5s linear infinite;
+}
+
+.loader-name {
+  margin-top: 21px;
+  color: var(--cream);
+  font-family: var(--serif);
+  font-size: 27px;
+  letter-spacing: -0.035em;
+}
+
+.loader-caption {
+  margin-top: 8px;
+  color: #d3c7a8;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
 .section-shell {
   width: min(1320px, 100%);
   margin: 0 auto;
@@ -1005,6 +1053,12 @@ a:focus-visible {
   }
 }
 
+@keyframes loader-turn {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 @media (min-width: 1500px) {
   .hero-content,
   .experience-copy {
@@ -1408,4 +1462,7 @@ a:focus-visible {
     transition-duration: 0.01ms !important;
   }
 
+  .loader-mark {
+    animation: none;
+  }
 }
