@@ -249,7 +249,7 @@ a:focus-visible {
 .hero h1 em,
 .menu-heading h2 em,
 .gallery-heading h2 em {
-  color: #dcc38f;
+  color: #efd9a8;
   font-weight: 500;
 }
 
@@ -416,7 +416,7 @@ a:focus-visible {
 
 .story-copy h2 em,
 .contact-copy h2 em {
-  color: #9c8050;
+  color: #795b2d;
   font-weight: 500;
 }
 
@@ -494,7 +494,7 @@ a:focus-visible {
 
 .menu-heading h2 em,
 .gallery-heading h2 em {
-  color: #9c8050;
+  color: #795b2d;
 }
 
 .menu-heading > p {
@@ -631,7 +631,7 @@ a:focus-visible {
 }
 
 .experience-copy h2 em {
-  color: #ddc58e;
+  color: #efd9a8;
   font-weight: 500;
 }
 
