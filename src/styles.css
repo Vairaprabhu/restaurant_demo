@@ -30,7 +30,6 @@ html {
 }
 
 body {
-  min-width: 320px;
   margin: 0;
   background: var(--cream);
 }
@@ -222,8 +221,8 @@ a:focus-visible {
   align-items: center;
   gap: 11px;
   margin: 0 0 22px;
-  color: #788066;
-  font-size: 9px;
+  color: #626951;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.2em;
 }
@@ -257,7 +256,7 @@ a:focus-visible {
 .hero-description {
   max-width: 440px;
   margin: 27px 0 30px;
-  color: rgba(255, 253, 246, 0.82);
+  color: #fffdf6;
   font-size: 13px;
   line-height: 1.9;
 }
@@ -310,7 +309,7 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 14px;
-  color: rgba(255, 253, 246, 0.75);
+  color: #fffdf6;
   font-size: 8px;
   letter-spacing: 0.17em;
 }
@@ -339,7 +338,7 @@ a:focus-visible {
   position: absolute;
   right: 7.3%;
   bottom: 39px;
-  color: rgba(255, 253, 246, 0.6);
+  color: #f2ecdc;
   font-size: 8px;
   letter-spacing: 0.16em;
 }
@@ -392,8 +391,8 @@ a:focus-visible {
   position: absolute;
   right: 0;
   bottom: 8px;
-  color: #737767;
-  font-size: 8px;
+  color: #52564b;
+  font-size: 9px;
   letter-spacing: 0.15em;
 }
 
@@ -432,8 +431,8 @@ a:focus-visible {
 .story-copy > p:not(.eyebrow) {
   max-width: 430px;
   margin: 14px 0 0;
-  color: #73766c;
-  font-size: 11px;
+  color: #56594f;
+  font-size: 12px;
   line-height: 2;
 }
 
@@ -452,8 +451,8 @@ a:focus-visible {
   margin-top: 25px;
   padding-bottom: 7px;
   border-bottom: 1px solid var(--gold);
-  color: var(--olive-dark);
-  font-size: 10px;
+  color: #263321;
+  font-size: 11px;
   font-weight: 700;
   transition: gap 180ms ease, color 180ms ease;
 }
@@ -501,8 +500,8 @@ a:focus-visible {
 .menu-heading > p {
   max-width: 315px;
   margin: 0 0 7px;
-  color: #74776e;
-  font-size: 11px;
+  color: #56594f;
+  font-size: 12px;
   line-height: 1.9;
 }
 
@@ -571,23 +570,23 @@ a:focus-visible {
 .dish-info p {
   max-width: 385px;
   margin: 7px 0 16px;
-  color: #73766c;
-  font-size: 10px;
+  color: #56594f;
+  font-size: 11px;
   line-height: 1.8;
 }
 
 .dish-price {
   flex: 0 0 auto;
   padding-top: 4px;
-  color: #8d7449;
+  color: #654d29;
   font-family: var(--serif);
   font-size: 17px;
 }
 
 .menu-disclaimer {
   margin: 32px 0 0;
-  color: #808176;
-  font-size: 9px;
+  color: #55574e;
+  font-size: 10px;
   font-style: italic;
   text-align: center;
 }
@@ -639,8 +638,8 @@ a:focus-visible {
 .experience-copy > p:not(.eyebrow) {
   max-width: 430px;
   margin: 21px 0 0;
-  color: rgba(255, 253, 246, 0.8);
-  font-size: 11px;
+  color: #fffdf6;
+  font-size: 12px;
   line-height: 1.9;
 }
 
@@ -652,8 +651,8 @@ a:focus-visible {
   position: absolute;
   right: 7.3%;
   bottom: 34px;
-  color: rgba(255, 253, 246, 0.69);
-  font-size: 8px;
+  color: #fffdf6;
+  font-size: 9px;
   letter-spacing: 0.18em;
 }
 
@@ -676,8 +675,8 @@ a:focus-visible {
 
 .gallery-count {
   padding-bottom: 7px;
-  color: #7a7c72;
-  font-size: 8px;
+  color: #55574e;
+  font-size: 9px;
   letter-spacing: 0.16em;
 }
 
@@ -790,16 +789,16 @@ a:focus-visible {
 .contact-copy > p:not(.eyebrow) {
   max-width: 365px;
   margin: 20px 0 24px;
-  color: rgba(248, 244, 233, 0.7);
-  font-size: 11px;
+  color: #f8f4e9;
+  font-size: 12px;
   line-height: 1.9;
 }
 
 .demo-label {
   display: block;
   margin-top: 12px;
-  color: rgba(248, 244, 233, 0.45);
-  font-size: 8px;
+  color: #d0cfc4;
+  font-size: 9px;
 }
 
 .contact-details {
@@ -840,16 +839,16 @@ a:focus-visible {
 
 .contact-detail p {
   margin: 0;
-  color: rgba(248, 244, 233, 0.75);
-  font-size: 10px;
+  color: #f8f4e9;
+  font-size: 11px;
   line-height: 1.8;
 }
 
 .contact-detail small {
   display: block;
   margin-top: 8px;
-  color: #a4a493;
-  font-size: 7px;
+  color: #c4c4b8;
+  font-size: 8px;
   letter-spacing: 0.13em;
 }
 
@@ -900,7 +899,7 @@ a:focus-visible {
 
 .footer-navigation a {
   color: #d0cec4;
-  font-size: 9px;
+  font-size: 10px;
   transition: color 180ms ease;
 }
 
@@ -925,8 +924,8 @@ a:focus-visible {
   justify-content: space-between;
   gap: 20px;
   border-top: 1px solid rgba(255, 253, 246, 0.13);
-  color: #a6a99d;
-  font-size: 8px;
+  color: #d1d2c8;
+  font-size: 9px;
 }
 
 .footer-bottom > a {
@@ -934,12 +933,56 @@ a:focus-visible {
 }
 
 .footer-credit {
-  color: #c0c1b6;
+  color: #e1e1d8;
 }
 
 .footer-credit strong {
   color: #d9c38f;
   font-weight: 600;
+}
+
+.scroll-to-top {
+  position: fixed;
+  z-index: 15;
+  right: clamp(16px, 3vw, 42px);
+  bottom: clamp(16px, 3vw, 38px);
+  display: inline-flex;
+  min-width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 0 15px;
+  border: 1px solid rgba(220, 193, 139, 0.75);
+  background: rgba(28, 33, 27, 0.96);
+  color: #fffdf6;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 180ms ease, transform 180ms ease, background 180ms ease;
+}
+
+.scroll-to-top.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.scroll-to-top:hover {
+  background: var(--olive-dark);
+}
+
+.scroll-to-top > span:first-child {
+  color: #e4c98f;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.scroll-to-top-label {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 @keyframes rise-in {
@@ -1328,6 +1371,14 @@ a:focus-visible {
 
   .footer-credit {
     width: 100%;
+  }
+
+  .scroll-to-top {
+    right: 14px;
+    bottom: 14px;
+    min-width: 46px;
+    height: 46px;
+    padding: 0 12px;
   }
 }
 

@@ -6,6 +6,7 @@ import ExperienceSection from "./components/ExperienceSection.jsx";
 import FoodGallery from "./components/FoodGallery.jsx";
 import ContactSection from "./components/ContactSection.jsx";
 import SiteFooter from "./components/SiteFooter.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <ContactSection />
       </main>
       <SiteFooter />
+      <ScrollToTop />
     </>
   );
 }
