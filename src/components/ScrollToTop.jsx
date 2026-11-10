@@ -15,7 +15,10 @@ function ScrollToTop() {
       className={`scroll-to-top${visible ? " is-visible" : ""}`}
       type="button"
       aria-label="Scroll to top"
-      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+      onClick={() => {
+        const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+        window.scrollTo({ top: 0, behavior });
+      }}
       tabIndex={visible ? 0 : -1}
     >
       <span aria-hidden="true">↑</span>
